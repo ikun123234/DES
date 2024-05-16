@@ -219,7 +219,7 @@ void keyGen(char *key, int round, char *afterkey)
 
 void des(char *in, char *out)
 {
-    int n = 2022141530150 % 16;
+    int n = xxxxxxxxxx % 16;  //你的学号
     readKey(keyfile);
     // 密钥转换成二进制
     hex2bin(key_hex, key_bin);
@@ -283,7 +283,7 @@ void des(char *in, char *out)
 
 void dedes(char *in, char *out)
 {
-    int n = 2022141530150 % 16;
+    int n = 'xxxxxxxx' % 16;   //你的学号  
     char temp[65];
     strcpy(temp, in);
     temp[64] = '\0';
